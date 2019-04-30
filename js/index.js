@@ -1,5 +1,6 @@
 // using this file is optional
 // you can also load the code snippets in using your browser's console
+<<<<<<< HEAD
 const main = document.getElementById('main')
 
 main.addEventListener('click', function(event) {
@@ -45,3 +46,16 @@ function bubble(e) {
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', bubble);
 }
+=======
+const main = document.getElementById('main');
+
+main.addEventListener('click', function(event) {
+  alert('I was clicked!');
+});
+
+const input = document.querySelector('input');
+
+input.addEventListener('keydown', function(e) {
+  console.log(e.key);
+});
+>>>>>>> f9bb055c55e8b982a2ed865f5961267ccbd650a7
